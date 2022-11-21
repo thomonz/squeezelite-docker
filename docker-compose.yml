@@ -2,13 +2,13 @@
 version: "3"
 
 services:
-  squeezelite-my-usb-dac:
-    image: giof71/squeezelite:latest
-    container_name: squeezelite-my.usb-dac
+  squeezelite-thomonz:
+    image: thomonz/squeezelite:latest
+    container_name: squeezelite-thomonz
     devices:
       - /dev/snd:/dev/snd
     environment:
-     - SQUEEZELITE_NAME=my-usb-dac
+     - SQUEEZELITE_NAME=thomonzSq
       - SQUEEZELITE_SERVER_PORT=192.168.1.10
 
     

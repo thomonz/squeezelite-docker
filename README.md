@@ -1,3 +1,4 @@
+TESTING
 # squeezelite-docker
 
 A Docker image for SqueezeLite  
